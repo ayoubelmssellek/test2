@@ -1,0 +1,1 @@
+import{A as e}from"./index-CwYUfppV.js";const s=async t=>{const o=localStorage.getItem("authToken");try{return(await e.post(`/favorite/${t}`,{},{headers:{Authorization:`Bearer ${o}`}})).data}catch(r){throw console.error("Error updating favorite status:",r),r}};export{s as f};

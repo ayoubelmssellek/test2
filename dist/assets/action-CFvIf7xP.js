@@ -1,0 +1,1 @@
+const a=t=>({type:"addTo_cart",produit:t}),o=()=>({type:"clear"}),r=(t,e)=>({type:"DicreaseQuantity",paytoad:{id:t,item:e}}),s=t=>({type:"SET_REORDER",reorder:t}),c=()=>({type:"toggelModalOpen"}),n=()=>({type:"toggelcheckoutClicked"}),g=()=>({type:"TOGGLE_REGISTER"});export{r as D,a,c as b,n as c,s as d,o as s,g as t};

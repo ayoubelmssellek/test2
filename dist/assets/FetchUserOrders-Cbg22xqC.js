@@ -1,0 +1,1 @@
+import{A as t}from"./index-CwYUfppV.js";const s=async()=>{const e=localStorage.getItem("authToken");try{const r=await t.get("/userOrders",{headers:{Authorization:`Bearer ${e}`}});return r.data.orders||r.data}catch(r){throw console.error("Error fetching user orders:",r),r}};export{s as f};

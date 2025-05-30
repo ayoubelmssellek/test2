@@ -1,0 +1,1 @@
+import{A as t}from"./index-CwYUfppV.js";const a=async()=>{const e=localStorage.getItem("authToken");try{return(await t.get("/favorites",{headers:{Authorization:`Bearer ${e}`}})).data}catch(r){return console.error("Error fetching favorites:",r),[]}};export{a as F};
